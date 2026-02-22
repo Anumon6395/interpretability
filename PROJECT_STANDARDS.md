@@ -32,6 +32,7 @@ These standards apply to all projects unless explicitly overridden by a project-
 
 Each project should follow this structure unless explicitly justified:
 
+```
 project_root/
 │
 ├── README.md
@@ -43,6 +44,7 @@ project_root/
 ├── exploration/
 ├── tests/
 └── outputs/
+```
 
 ## Directory Roles
 
