@@ -1,1 +1,7 @@
-Following Neel Nanda's notebook to implement GPT2
+# GPT-2 From Scratch
+
+## Overview
+Implementation of GPT-2 to understand transformer internals.
+
+## Status
+Exploration (Tier 0)
