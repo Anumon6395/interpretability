@@ -5,13 +5,13 @@
 
 Intuitively:
 
-As noise increases, updates from predicting A and B begin to conflict because changes that help one feature can hurt the other (gradient interference). To reduce this cross-talk in the shared embedding (shared representation), the model separates A and B more cleanly into independent directions (feature disentanglement), which pushes their directions toward orthogonality.
+As noise increases, updates from predicting A and B begin to conflict because changes that help one feature can hurt the other (**gradient interference**). To reduce this cross-talk in the shared embedding (**shared representation**), the model separates A and B more cleanly into independent directions (**feature disentanglement**), which pushes their directions toward orthogonality.
 
 This seems like a parallel to what happens in Linear Discriminant Analysis.
 
 ## What is this?
 
-An exploration to build intuition about how input noise shapes representation geometry in a shared embedding.
+An informal exploration to build intuition about how input noise shapes representation geometry in a shared embedding.
 
 Question:
 
