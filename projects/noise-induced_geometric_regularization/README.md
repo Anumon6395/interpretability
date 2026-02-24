@@ -3,6 +3,12 @@
 
 ![Noise sweep results](exploration/sweep_noise_plots_1.png)
 
+Intuitively:
+
+As noise increases, updates from predicting A and B begin to conflict because changes that help one feature can hurt the other (gradient interference). To reduce this cross-talk in the shared embedding (shared representation), the model separates A and B more cleanly into independent directions (feature disentanglement), which pushes their directions toward orthogonality.
+
+This seems like a parallel to what happens in Linear Discriminant Analysis.
+
 ## What is this?
 
 An exploration to build intuition about how input noise shapes representation geometry in a shared embedding.
@@ -92,12 +98,6 @@ High noise:
 Hypothesis:
 
 Noise can function as an implicit geometric regularizer to shape internal representation structure even without explicit constraints.
-
-Intuitively:
-
-As noise increases, updates from predicting A and B begin to conflict because changes that help one feature can hurt the other (gradient interference). To reduce this cross-talk in the shared embedding (shared representation), the model separates A and B more cleanly into independent directions (feature disentanglement), which pushes their directions toward orthogonality.
-
-This seems like a parallel of what happens in Linear Discriminant Analysis.
 
 ---
 
