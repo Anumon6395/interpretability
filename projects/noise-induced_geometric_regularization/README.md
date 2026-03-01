@@ -1,7 +1,7 @@
 # Noise-Induced Geometric Regularization
 
 
-![Noise sweep results](exploration/sweep_noise_plots_1.png)
+![Noise sweep results](exploration/sweep_noise_plots.png)
 
 Intuitively:
 
